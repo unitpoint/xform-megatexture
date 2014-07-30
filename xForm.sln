@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "engine", "engine\engine.vcproj", "{72728B08-215C-4C58-A870-4D25DCA87E3A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcproj", "{0301AF99-595B-4DBA-8949-AE8BBE183868}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72728B08-215C-4C58-A870-4D25DCA87E3A} = {72728B08-215C-4C58-A870-4D25DCA87E3A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		SDK MultiThreaded|Win32 = SDK MultiThreaded|Win32
+		SDK SingleThreaded|Win32 = SDK SingleThreaded|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72728B08-215C-4C58-A870-4D25DCA87E3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{72728B08-215C-4C58-A870-4D25DCA87E3A}.Debug|Win32.Build.0 = Debug|Win32
+		{72728B08-215C-4C58-A870-4D25DCA87E3A}.Release|Win32.ActiveCfg = Release|Win32
+		{72728B08-215C-4C58-A870-4D25DCA87E3A}.Release|Win32.Build.0 = Release|Win32
+		{72728B08-215C-4C58-A870-4D25DCA87E3A}.SDK MultiThreaded|Win32.ActiveCfg = Release|Win32
+		{72728B08-215C-4C58-A870-4D25DCA87E3A}.SDK MultiThreaded|Win32.Build.0 = Release|Win32
+		{72728B08-215C-4C58-A870-4D25DCA87E3A}.SDK SingleThreaded|Win32.ActiveCfg = Release|Win32
+		{72728B08-215C-4C58-A870-4D25DCA87E3A}.SDK SingleThreaded|Win32.Build.0 = Release|Win32
+		{0301AF99-595B-4DBA-8949-AE8BBE183868}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0301AF99-595B-4DBA-8949-AE8BBE183868}.Debug|Win32.Build.0 = Debug|Win32
+		{0301AF99-595B-4DBA-8949-AE8BBE183868}.Release|Win32.ActiveCfg = Release|Win32
+		{0301AF99-595B-4DBA-8949-AE8BBE183868}.Release|Win32.Build.0 = Release|Win32
+		{0301AF99-595B-4DBA-8949-AE8BBE183868}.SDK MultiThreaded|Win32.ActiveCfg = Release|Win32
+		{0301AF99-595B-4DBA-8949-AE8BBE183868}.SDK MultiThreaded|Win32.Build.0 = Release|Win32
+		{0301AF99-595B-4DBA-8949-AE8BBE183868}.SDK SingleThreaded|Win32.ActiveCfg = Release|Win32
+		{0301AF99-595B-4DBA-8949-AE8BBE183868}.SDK SingleThreaded|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
